@@ -1,0 +1,61 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/BinaryThumb + https://registry.npmjs.org/
+notes: >-
+  Binary Thumb published no API and therefore no API client SDKs. These are the
+  open-source JavaScript libraries the company released from its GitHub
+  organization and published to npm. They are recorded here as real first-party
+  packages, but they are NOT client libraries for a Binary Thumb API, so no
+  SDKs pointer is emitted in apis.yml.
+packages:
+- language: javascript
+  registry: npm
+  name: change-case-object
+  version: 2.0.0
+  url: https://www.npmjs.com/package/change-case-object
+  repository: https://github.com/BinaryThumb/change-case-object
+  install: npm install change-case-object
+  description: Changes the case of all keys of an object
+  official: true
+  kind: utility-library
+- language: javascript
+  registry: npm
+  name: react-background-video
+  version: 2.0.0
+  url: https://www.npmjs.com/package/react-background-video
+  repository: https://github.com/BinaryThumb/react-background-video
+  install: npm install react-background-video
+  description: React component which provides a fullscreen background video
+  official: true
+  kind: ui-component
+- language: javascript
+  registry: npm
+  name: react-email-blueprints
+  version: 1.0.1
+  url: https://www.npmjs.com/package/react-email-blueprints
+  repository: https://github.com/BinaryThumb/react-email-blueprints
+  install: npm install react-email-blueprints
+  description: Render e-mails with React
+  official: true
+  kind: ui-component
+- language: javascript
+  registry: npm
+  name: react-scroller
+  version: 0.0.3
+  url: https://www.npmjs.com/package/react-scroller
+  repository: https://github.com/BinaryThumb/react-scroller
+  install: npm install react-scroller
+  description: Infinite scroll component for React
+  official: false
+  official_unverified: true
+  note: >-
+    A react-scroller repo exists under the BinaryThumb GitHub org, but the npm
+    package declares no repository field and is maintained by an individual
+    account (claflamme). First-party status could not be verified.
+  kind: ui-component
+excluded:
+- name: dynamite
+  registry: npm
+  reason: >-
+    BinaryThumb/dynamite is a fork of Medium/dynamite; the npm package points at
+    the Medium repository. Not first-party.

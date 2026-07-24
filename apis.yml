@@ -1,7 +1,20 @@
 aid: binary-thumbs
 name: Binary Thumbs
-description: Binary Thumbs is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Binary Thumbs (operating name "Binary Thumb", Y Combinator Summer 2012) was a
+  San Francisco startup founded in 2012 by Josh Leong, Michael Lin, and Matt
+  Monson to reinvent the spreadsheet for touch devices. Its single product,
+  Grid, was a collaborative grid-based spreadsheet and organizational app for
+  iPad and iPhone that let people keep notes, pictures, people, and places in a
+  freeform grid rather than rigid rows and columns. The company raised roughly
+  $2.15M across a 2012 YC round and a 2013 seed, with participation from angel
+  and institutional investors, and appears on the Andreessen Horowitz public
+  investment list. Y Combinator now lists the company as inactive; Josh Leong
+  led it as CEO from 2012 to 2016. Binary Thumb never shipped a public API,
+  developer portal, or documentation surface -- it was a consumer iOS product
+  company. Its lasting public technical footprint is the BinaryThumb GitHub
+  organization and a handful of open-source React and JavaScript utility
+  libraries published to npm.
 url: https://raw.githubusercontent.com/api-evangelist/binary-thumbs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +22,62 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: inactive
+x-status-source: https://www.ycombinator.com/companies/binary-thumb
+x-status-note: >-
+  Y Combinator lists the company (batch S12, product "Grid") as Inactive. The
+  Grid iOS App Store listing returns 404 and the historical binarythumb.com
+  domain now serves unrelated affiliate/gambling SEO content, so it is NOT
+  wired as a Website or DeveloperPortal property. No API surface exists:
+  no OpenAPI, docs, auth, sandbox, changelog, status page, or event surface
+  were found, so no artifact pointers are emitted for those types.
+x-founded: '2012'
+x-founders:
+- Josh Leong
+- Michael Lin
+- Matt Monson
+x-location: San Francisco, CA, United States
+x-yc-batch: S12
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://github.com/BinaryThumb.png
 tags:
 - Company
+- Inactive
+- Y Combinator
+- Productivity
+- Spreadsheets
+- Mobile
+- iOS
+- Consumer Software
+- Open Source
 apis: []
+common:
+- type: GitHubOrganization
+  name: Binary Thumb on GitHub
+  url: https://github.com/BinaryThumb
+- type: Packages
+  name: Binary Thumb open-source npm packages
+  url: packages/binary-thumbs-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

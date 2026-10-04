@@ -22,7 +22,7 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: inactive
+x-status: defunct
 x-status-source: https://www.ycombinator.com/companies/binary-thumb
 x-status-note: >-
   Y Combinator lists the company (batch S12, product "Grid") as Inactive. The
@@ -73,7 +73,8 @@ tags:
 - Mobile
 - iOS
 - Consumer Software
-- Open-Source
+- Open Source
+- Defunct
 tags_raw:
 - Company
 - Inactive
@@ -84,6 +85,8 @@ tags_raw:
 - iOS
 - Consumer Software
 - Open Source
+- Open-Source
+- Defunct
 apis: []
 common:
 - type: GitHubOrganization

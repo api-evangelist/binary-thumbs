@@ -64,12 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Binary Thumbs (operating name **Binary Thumb**, Y Combinator Summer 2012) was a San Francisco startup founded in 2012 by Josh Leong, Michael Lin, and Matt Monson to reinvent the spreadsheet for touch devices. Its product, **Grid**, was a collaborative grid-based spreadsheet and organizational app for iPad and iPhone.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-The company raised roughly $2.15M across its YC round and a 2013 seed, and appears on the Andreessen Horowitz public investment list.
+Binary Thumbs (operating name "Binary Thumb", Y Combinator Summer 2012) was a San Francisco startup founded in 2012 by Josh Leong, Michael Lin, and Matt Monson to reinvent the spreadsheet for touch devices. Its single product, Grid, was a collaborative grid-based spreadsheet and organizational app for iPad and iPhone that let people keep notes, pictures, people, and places in a freeform grid rather than rigid rows and columns. The company raised roughly $2.15M across a 2012 YC round and a 2013 seed, with participation from angel and institutional investors, and appears on the Andreessen Horowitz public investment list. Y Combinator now lists the company as inactive; Josh Leong led it as CEO from 2012 to 2016. Binary Thumb never shipped a public API, developer portal, or documentation surface -- it was a consumer iOS product company. Its lasting public technical footprint is the BinaryThumb GitHub organization and a handful of open-source React and JavaScript utility libraries published to npm.
 
-**Status: inactive.** Y Combinator lists the company as Inactive; Josh Leong led it as CEO from 2012 to 2016. The Grid App Store listing returns 404, and the historical `binarythumb.com` domain now serves unrelated affiliate content, so it is not wired as a company website property.
+**Areas:** Company · Inactive · Y Combinator · Productivity · Spreadsheets · Mobile · iOS · Consumer Software · Open Source · Defunct
 
-Binary Thumb never shipped a public API, developer portal, or documentation. Its remaining public technical footprint is the [BinaryThumb GitHub organization](https://github.com/BinaryThumb) and a few open-source React/JavaScript libraries on npm, catalogued in [`packages/`](packages/binary-thumbs-packages.yml).
+## Binary Thumbs on APIs.io (historical record)
 
-Backed by: a16z
+Everything profiled for Binary Thumbs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/binary-thumbs/](https://apis.io/providers/binary-thumbs/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/BinaryThumb)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Binary Thumbs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/binary-thumbs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
